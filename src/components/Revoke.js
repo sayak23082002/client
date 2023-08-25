@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Modal.css";
+import "./Revoke.css";
 
 export default function Revoke({setRevvokeOpen, contract}) {
     const revoking = async () => {
@@ -12,8 +12,8 @@ export default function Revoke({setRevvokeOpen, contract}) {
         }
     }
   return (
-    <div className='modalBackground'>
-      <div className="modalContainer">
+    <div className='revokeBackground'>
+      <div className="revokeContainer">
         <div className="title"></div>
         <div className="body">
           <input type="text" className="address" placeholder="Enter Address" />

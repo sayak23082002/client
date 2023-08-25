@@ -1,4 +1,4 @@
-.modalBackground {
+.revokeBackground {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
@@ -8,7 +8,7 @@
     align-items: center;
   }
   
-  .modalContainer {
+  .revokeContainer {
     width: 500px;
     height: 200px;
     border-radius: 12px;
@@ -19,7 +19,7 @@
     padding: 25px;
   }
   
-  .modalContainer {
+  .revokeContainer {
     display: inline-block;
     text-align: center;
   }
@@ -40,7 +40,7 @@
     cursor: pointer;
   }
   
-  .modalContainer .body {
+  .revokeContainer .body {
     flex: 50%;
     display: flex;
     justify-content: center;
@@ -49,14 +49,14 @@
     text-align: center;
   }
   
-  .modalContainer .footer {
+  .revokeContainer .footer {
     flex: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  .modalContainer .footer button {
+  .revokeContainer .footer button {
     width: 100px;
     height: 35px;
     margin: 10px;
